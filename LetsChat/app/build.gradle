@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.example.singhkshitiz.letschat"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+
+    compile 'com.android.support:appcompat-v7:26.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    //----FIREBASE AUTHENTICATION---
+    compile 'com.google.firebase:firebase-auth:10.0.1'
+
+    //----DESIGN FOR SUPPORTING MANY FEATURES LIKE TEXTINPUT LAYOUT----
+    compile 'com.android.support:design:26.0.2'
+    compile 'com.android.support:support-v4:26.0.2'
+
+    //----CIRCULAR IMAGE VIEW----
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+
+    //---IMAGE CROPPING LIBRARY
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.5.0'
+
+    //-----FIREBASE DATABASE---
+    compile 'com.google.firebase:firebase-database:10.0.1'
+
+    //-----FIREBASE STORAGE----
+    compile 'com.google.firebase:firebase-storage:10.0.1'
+
+    //----GETTING IMAGE FROM URL AND ADDING TO HOLDER----
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    //-----DATA IS FETCHED FROM DATABASE AND ADDED TO RECYCLER VIEW----
+    compile 'com.firebaseui:firebase-ui-database:1.0.1'
+
+    //----COMPRESSING THE IMAGE----
+    compile 'id.zelory:compressor:2.1.0'
+
+    //-----FOR SENDING AND GETTING NOTIFICATION-----
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+
+    //------FIREBASE CLOUD MESSAGING FOR SENDING NOTIFICATION-----
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

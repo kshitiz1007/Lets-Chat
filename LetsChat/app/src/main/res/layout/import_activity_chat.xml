@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#CCCCCC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="1"
+        android:background="#FFFFFF"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/chatAddButton"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/addbutton" />
+
+        <EditText
+            android:id="@+id/chatMessageView"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter the message"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:maxHeight="300dp"
+            android:layout_weight="0.99" />
+
+        <ImageButton
+            android:id="@+id/chatSendButton"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_margin="2dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/sendbutton"
+            />
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/message_swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/recycleViewMessageList"
+        android:layout_alignParentTop="true" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

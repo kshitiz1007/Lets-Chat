@@ -24,7 +24,7 @@
 * Cancel friend request sent
 * Accept friend request received
 * Decline friend request received
-* Notification will be received to receiver
+* Notification will be received by receiver
 
 #### &nbsp; --->MAINTAIN OWN ACCOUNT
 * Change Profile Image

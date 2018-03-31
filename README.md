@@ -1,5 +1,5 @@
-# Lets-Chat
-#
+# <h1 align = "center">LETS CHAT</h1>
+### <h3 align= "center">Simple firebase based Android app for chatting with friends</h1>
 <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots1.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots2.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots3.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots4.png" width="200"> &nbsp; 
 #
 <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots5.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots6.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots7.png" width="200"> &nbsp; <img src="https://github.com/kshitiz1007/Lets-Chat/blob/master/Screenshots/letsChatScreenshots8.png" width="200"> &nbsp; 
@@ -42,3 +42,6 @@
 * Firebase Cloud Messaging , OKHTTP (for sending notification)
 * Image Cropping 
 * Image Compressing
+
+### <h3 align="right">Kshitiz Singh &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+### <h5 align="right">Freelancer App designer & developer</h5>

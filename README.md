@@ -34,8 +34,10 @@
 * Send Messages
 * Send Images
 * Delete Messages
+* Last seen 
+* Friend is Online or not
 
-#### &nbsp; --->OTHER
+#### &nbsp; --->OTHERS
 * Firebase Offline (Once page is loaded , one can view it in offline mode)
 * Firebase Cloud Messaging , OKHTTP (for sending notification)
 * Image Cropping 
